@@ -1,6 +1,6 @@
 # create-project-template
 
-Create project template (basically to publish)
+Create project template (basically to publish your library)
 
 This template is assuming to use React framework !
 
