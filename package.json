@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Create project template (basically to publish)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
@@ -30,6 +33,11 @@
     "type": "git",
     "url": "git+https://github.com/kafelix496/create-project-template.git"
   },
+  "keywords": [
+    "react",
+    "library",
+    "template"
+  ],
   "author": "Felix J Lee",
   "license": "MIT",
   "bugs": {
