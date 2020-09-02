@@ -8,7 +8,9 @@ I Learned it through youtube video
 
 ref: https://www.youtube.com/playlist?list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd
 
-## Modern Project
+## Memo what I studied
+
+#### Modern Project
 
 - Version Control
 - Automated CI / CD
@@ -18,7 +20,7 @@ ref: https://www.youtube.com/playlist?list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd
 - Documented API
 - Demos
 
-## Build Process
+#### Build Process
 
 Automated sequence of tasks that runs on each push, tag, and/or release.
 
