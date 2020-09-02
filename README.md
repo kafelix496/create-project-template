@@ -2,6 +2,8 @@
 
 Create project template (basically to publish)
 
+This template is assuming to use React framework !
+
 I Learned it through youtube video
 
 ref: https://www.youtube.com/playlist?list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd
