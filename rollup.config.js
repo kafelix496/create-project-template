@@ -1,9 +1,10 @@
 import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
-import string from 'rollup-plugin-string';
+import { string } from 'rollup-plugin-string';
 
 const dist = 'dist';
+const bundle = 'customLibrary';
 
 const common = {
   input: 'src/index.js',
@@ -21,15 +22,12 @@ const common = {
 };
 
 const outputs = [{
-  file: `${dist}/bundle.cjs.js`,
-  format: 'cjs',
-}, {
-  file: `${dist}/bundle.esm.js`,
+  file: `${dist}/${bundle}.esm.js`,
   format: 'esm',
 }, {
-  file: `${dist}/bundle.umd.js`,
+  file: `${dist}/${bundle}.js`,
   format: 'umd',
-  name: 'customLibrary',
+  name: `${bundle}`,
   globals: {
     react: 'React',
   },

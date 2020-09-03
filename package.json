@@ -2,7 +2,8 @@
   "name": "@kafelix496/create-project-template",
   "version": "1.0.0",
   "description": "Create project template (basically to publish)",
-  "main": "index.js",
+  "main": "dist/customLibrary.js",
+  "module": "dist/customLibrary.esm.js",
   "dependencies": {
     "react": "^16.13.1"
   },
