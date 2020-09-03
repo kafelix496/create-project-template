@@ -1,6 +1,7 @@
 {
   "name": "@kafelix496/react-library-template",
   "version": "1.0.0",
+  "private": true,
   "description": "React library template",
   "main": "index.js",
   "dependencies": {
