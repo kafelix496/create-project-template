@@ -1,0 +1,26 @@
+{
+  "name": "@kafelix496/react-library-template",
+  "version": "1.0.0",
+  "description": "React library template",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": ">=16.2.0"
+  },
+  "scripts": {
+    "publish": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "template"
+  ],
+  "author": "Felix J Lee",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "cjs/",
+    "umd/"
+  ]
+}
