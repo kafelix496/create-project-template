@@ -4,21 +4,35 @@
   "description": "Create project template (basically to publish)",
   "main": "index.js",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.6",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.13"
+    "lint-staged": "^10.2.13",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.26.9",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-string": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "eslint --fix '**/*.js'",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
   },
   "husky": {
     "hooks": {
