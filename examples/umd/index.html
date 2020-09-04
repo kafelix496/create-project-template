@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Umd test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+    <script crossorigin src="https://unpkg.com/@kafelix496/react-library-template@1.0.1/umd/customLibrary.min.js"></script>
+    <script>
+      const { Checkbox, Range } = customLibrary;
+
+      ReactDOM.render(
+        React.createElement(Range, { min: 0, max: 10, value: 5 }, null),
+        document.getElementById('container')
+      );
+    </script>
+  </body>
+</html>
