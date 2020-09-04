@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kafelix496/create-project-template.git"
+    "url": "git+https://github.com/kafelix496/react-library-template.git"
   },
   "keywords": [
     "react",
@@ -59,7 +59,7 @@
   "author": "Felix J Lee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kafelix496/create-project-template/issues"
+    "url": "https://github.com/kafelix496/react-library-template/issues"
   },
-  "homepage": "https://github.com/kafelix496/create-project-template#readme"
+  "homepage": "https://github.com/kafelix496/react-library-template#readme"
 }
