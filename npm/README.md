@@ -5,13 +5,15 @@ This template is assuming to use React framework !
 ### Need to change
 
 ```
+- ./rollup.config.js : if you change variable 'npm' value, you also need to change ./package.json 'prebuild' script
+
 - ./rollup.config.js : change variable 'bundleName' value
-- ./dist/index.js : change string 'customLibrary'. recommend to change same like variable 'bundleName' value
+- ./npm/index.js : change string 'customLibrary'. recommend to change same like variable 'bundleName' value
 
 - ./rollup.config.js : 'external' value inside 'common' function
 - ./rollup.config.js : `globals` value inside 'outputs' property. variable 'globals' is for umd foramtting.
 
-- ./package.json, ./dist/package.json : 'author'
+- ./package.json, ./npm/package.json : 'author'
 ```
 
 # Memo what I studied

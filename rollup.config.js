@@ -9,7 +9,7 @@ const bundleName = 'customLibrary';
 
 const common = (isProd) => ({
   input: 'src/index.js',
-  external: ['react'],
+  external: ['react', 'prop-types'],
   plugins: [
     copy({
       targets: [
@@ -40,6 +40,7 @@ const outputs = [{
   name: `${bundleName}`,
   globals: {
     react: 'React',
+    'prop-types': 'PropTypes',
   },
 }, {
   file: `${dist}/umd/${bundleName}.min.js`,
@@ -47,6 +48,7 @@ const outputs = [{
   name: `${bundleName}`,
   globals: {
     react: 'React',
+    'prop-types': 'PropTypes',
   },
 }];
 
